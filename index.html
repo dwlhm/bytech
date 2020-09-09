@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <title>By Tech</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body#fullpage {
+            margin: 0;
+        }
+        div#hero-bytech {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-style: italic;
+            font-family: san;
+            flex-direction: column;
+            height: 100vh;
+            padding: 5px;
+        }
+        #hero-bytech img {
+            max-width: 200px;
+        }
+        #hero-bytech h1 {
+            margin: 5px;
+        }
+        #hero-bytech h3 {
+            background: #018aff52;
+        }
+        div#hero-posficc {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 5px;
+        }
+        #hero-posficc h3#produk, #hero-founder .ceo h2 {
+            font-size: 3em;
+            text-align: center;
+            text-decoration: underline;
+        }
+        #hero-posficc .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #hero-posficc .right {
+            margin-left: 10px;
+            display: flex;
+            align-items: start;
+            justify-content: start;
+            flex-direction: column;
+        }
+        #hero-posficc .left img {
+            max-width: 200px;
+        }
+        #hero-posficc .left img {
+            max-width: 200px;
+        }
+        #hero-posficc .right {
+            margin-left: 10px;
+            display: flex;
+            align-items: start;
+            justify-content: start;
+            flex-direction: column;
+        }
+        #hero-posficc .right h3 {
+            margin: 0;
+            font-size: 22px;
+            background: #018aff52;
+        }
+        h3#produk {
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        div#hero-founder {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    flex-direction: column;
+}
+.ceo {
+    text-align: center;
+}
+#hero-founder .ceo h2 {
+    margin-top: 0;
+}
+#ceo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+div#imgOdd {
+    max-height: 110px;
+    border-radius: 1em;
+    max-width: 110px;
+    overflow: hidden;
+    border: 5px solid #018aff52;
+}
+#hero-founder img {
+    max-width: 110px;
+}
+#hero-founder p.nama {
+    font-weight: bold;
+    margin-bottom: 0;
+    font-size: 19px;
+}
+#hero-founder p.role {
+    font-weight: lighter;
+    margin-top: 5px;
+    font-style: italic;
+}
+#hero-founder .bottom {
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#hero-founder .bottom div {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#hero-founder .bottom div.left {
+    border-radius: 1rem;
+    overflow: hidden;
+    max-height: 110px;
+}
+#hero-founder img {
+    max-width: 110px;
+}
+#hero-founder .bottom div.right {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+footer#credit {
+    background: #000;
+    color: #fff;
+    overflow: hidden;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+@media screen and (max-width: 800px) {
+    #hero-founder .bottom {
+        flex-direction: column;
+    }
+}
+    </style>
+</head>
+<body id="fullpage">
+    <div id="hero-bytech">
+        <img src="bytech.png" alt="bytech-logo"/>
+        <h1>By Tech</h1>
+        <h3>Startup IoT Indonesia yang bergerak dibidang fishery</h3>
+    </div>
+    <div id="hero-posficc">
+        <div>
+            <h3 id="produk">Produk</h3>
+        </div>
+        <div class="container">
+            <div class="left">
+                <img src="posficc.png" alt="posfic-logo"/>
+            </div>
+            <div class="right">
+                <h3>PosFic</h3>
+                <p>Menyediakan ikan laut dengan kondisi segar seberapa jauhpun lautan berada</p>
+            </div>
+        </div>
+    </div>
+    <div id="hero-founder">
+        <div class="ceo">
+            <h2>Founder</h2>
+        </div>
+        <div id="ceo">
+            <div id="imgOdd">
+                <img src="https://dcv.dilo.id/regis/assets/socioide/founder/4cf6092a-bf38-4cf8-af38-0c288f7c9595.jpg" alt="profil-coo"/>
+            </div>
+            <p class="nama">Muhammad Rifki Gunawan</p>
+            <p class="role">Chief Executive Officer</p>
+        </div>
+
+        <div class="bottom">            
+            <div id="cto">
+                <div class="left">
+                    <img src="https://dcv.dilo.id/regis/assets/socioide/founder/Image_2020-09-03_at_22_07_071.jpeg" alt="profil-cto"/>
+                </div>
+                <div class="right">
+                    <p class="nama">Elfan Ahmad Rifansyah</p>
+                    <p class="role">Chief Technology Officer</p>
+                </div>                
+            </div>
+            <div id="coo">
+                <div class="left">
+                    <img src="https://dcv.dilo.id/regis/assets/socioide/founder/foto_Fadli.jpg" alt="profil-coo"/>
+                </div>
+                <div class="right">
+                    <p class="nama">Fadhli Naufal Wirawan</p>
+                    <p class="role">Chief Financial Officer</p>
+                </div>                
+            </div>
+            <div id="coo">
+                <div class="left">
+                    <img src="https://dcv.dilo.id/regis/assets/socioide/founder/4cf6092a-bf38-4cf8-af38-0c288f7c9595.jpg" alt="profil-coo"/>
+                </div>
+                <div class="right">
+                    <p class="nama">Dwi Ilham Maulana</p>
+                    <p class="role">Chief Operating Officer</p>
+                </div>                
+            </div>
+        </div>
+    </div> 
+    <footer id="credit">
+        <p>By Tech - 2020</p>
+    </footer>
+</body>
+</html>
